@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --sage: #5c7a5c;
+  --sage-light: #7a9e7a;
+  --sage-dark: #3d5c3d;
+  --cream: #faf7f2;
+  --warm-gray: #8a8278;
+  --charcoal: #2c2c2c;
+  --gold: #c9a84c;
+  --danger: #c0392b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--cream);
+  color: var(--charcoal);
+  font-family: 'Georgia', 'Times New Roman', serif;
+  min-height: 100vh;
+}
+
+.focus-visible:focus-visible {
+  outline: 2px solid var(--sage);
+  outline-offset: 2px;
+}
