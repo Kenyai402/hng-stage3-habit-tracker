@@ -216,3 +216,6 @@ This section maps each required test file to the behavior it verifies.
 - Session and habits persist after page reload
 - Logout clears session and redirects to `/login`
 - Cached app shell loads offline after first visit
+
+## Coverage Report
+![Coverage Report](Coverage-report.png)
